@@ -1,0 +1,669 @@
+2026-10-07 22:32:46,710 INFO 加藤惠 已启动
+2026-10-07 23:08:43,822 INFO 加藤惠 已启动
+2026-10-08 07:32:11,534 INFO 加藤惠 已启动
+2026-10-08 12:30:43,111 INFO 加藤惠 已启动
+2026-10-08 12:35:24,734 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 12:36:09,226 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 12:36:29,510 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 12:36:29,542 INFO Decoder type: hifi-gan
+2026-10-08 12:36:29,545 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 12:36:30,527 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_76.pth' (epoch 4)
+2026-10-08 12:37:12,625 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 12:37:12,659 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 12:37:32,884 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 12:37:32,947 INFO Decoder type: hifi-gan
+2026-10-08 12:37:32,951 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 12:37:32,958 INFO Decoder type: hifi-gan
+2026-10-08 12:37:34,146 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_76.pth' (epoch 4)
+2026-10-08 12:37:34,165 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_76.pth' (epoch 4)
+2026-10-08 12:37:34,904 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 12:37:34,904 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 12:37:34,905 INFO Chunk: Chunk(Speech: True, 79380.0)
+2026-10-08 12:37:34,905 INFO Chunk: Chunk(Speech: True, 35280.0)
+2026-10-08 12:37:34,973 INFO F0 inference time:       0.067s, RTF: 0.037
+2026-10-08 12:37:34,976 INFO F0 inference time:       0.071s, RTF: 0.025
+2026-10-08 12:37:35,380 INFO HuBERT inference time  : 0.391s, RTF: 0.217
+2026-10-08 12:37:35,381 INFO HuBERT inference time  : 0.391s, RTF: 0.140
+2026-10-08 12:37:36,235 INFO Inference time: 0.85s, RTF: 0.47
+2026-10-08 12:37:36,236 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 12:37:36,236 INFO Chunk: Chunk(Speech: True, 79380.0)
+2026-10-08 12:37:36,300 INFO F0 inference time:       0.064s, RTF: 0.023
+2026-10-08 12:37:36,454 INFO Inference time: 1.07s, RTF: 0.38
+2026-10-08 12:37:36,454 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 12:37:36,454 INFO Chunk: Chunk(Speech: True, 44100.0)
+2026-10-08 12:37:36,467 INFO HuBERT inference time  : 0.163s, RTF: 0.058
+2026-10-08 12:37:36,504 INFO F0 inference time:       0.049s, RTF: 0.025
+2026-10-08 12:37:36,657 INFO HuBERT inference time  : 0.150s, RTF: 0.075
+2026-10-08 12:37:37,528 INFO Inference time: 1.06s, RTF: 0.38
+2026-10-08 12:37:37,529 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 12:37:37,529 INFO Chunk: Chunk(Speech: True, 141120.0)
+2026-10-08 12:37:37,633 INFO Inference time: 0.98s, RTF: 0.49
+2026-10-08 12:37:37,633 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 12:37:37,634 INFO Chunk: Chunk(Speech: True, 132300.0)
+2026-10-08 12:37:37,700 INFO F0 inference time:       0.170s, RTF: 0.040
+2026-10-08 12:37:37,793 INFO F0 inference time:       0.158s, RTF: 0.040
+2026-10-08 12:37:38,018 INFO HuBERT inference time  : 0.314s, RTF: 0.075
+2026-10-08 12:37:38,082 INFO HuBERT inference time  : 0.284s, RTF: 0.071
+2026-10-08 12:37:40,299 INFO Inference time: 2.28s, RTF: 0.54
+2026-10-08 12:37:40,300 INFO Chunk: Chunk(Speech: False, 35280.0)
+2026-10-08 12:37:40,301 INFO Chunk: Chunk(Speech: True, 44100.0)
+2026-10-08 12:37:40,380 INFO F0 inference time:       0.079s, RTF: 0.039
+2026-10-08 12:37:40,412 INFO Inference time: 2.33s, RTF: 0.58
+2026-10-08 12:37:40,413 INFO Chunk: Chunk(Speech: False, 25402.0)
+2026-10-08 12:37:40,589 INFO HuBERT inference time  : 0.200s, RTF: 0.100
+2026-10-08 12:37:41,840 INFO Inference time: 1.25s, RTF: 0.63
+2026-10-08 12:37:41,840 INFO Chunk: Chunk(Speech: False, 25049.0)
+2026-10-08 12:46:29,517 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 12:46:49,729 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 12:46:49,756 INFO Decoder type: hifi-gan
+2026-10-08 12:46:49,758 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 12:46:50,357 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_100.pth' (epoch 6)
+2026-10-08 12:47:32,467 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 12:47:52,662 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 12:47:52,689 INFO Decoder type: hifi-gan
+2026-10-08 12:47:52,691 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 12:47:53,374 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_100.pth' (epoch 6)
+2026-10-08 12:47:53,408 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 12:47:53,408 INFO Chunk: Chunk(Speech: True, 176400.0)
+2026-10-08 12:47:53,502 INFO F0 inference time:       0.093s, RTF: 0.019
+2026-10-08 12:47:53,825 INFO HuBERT inference time  : 0.321s, RTF: 0.064
+2026-10-08 12:47:55,413 INFO Inference time: 1.59s, RTF: 0.32
+2026-10-08 12:47:55,413 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 12:47:55,413 INFO Chunk: Chunk(Speech: True, 61740.0)
+2026-10-08 12:47:55,460 INFO F0 inference time:       0.048s, RTF: 0.020
+2026-10-08 12:47:55,589 INFO HuBERT inference time  : 0.125s, RTF: 0.052
+2026-10-08 12:47:56,344 INFO Inference time: 0.75s, RTF: 0.32
+2026-10-08 12:47:56,344 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 12:47:56,345 INFO Chunk: Chunk(Speech: True, 105840.0)
+2026-10-08 12:47:56,437 INFO F0 inference time:       0.092s, RTF: 0.027
+2026-10-08 12:47:56,596 INFO HuBERT inference time  : 0.156s, RTF: 0.046
+2026-10-08 12:47:57,732 INFO Inference time: 1.14s, RTF: 0.34
+2026-10-08 12:47:57,733 INFO Chunk: Chunk(Speech: False, 22932.0)
+2026-10-08 13:05:31,148 INFO 加藤惠 已启动
+2026-10-08 13:22:54,377 INFO 加藤惠 已启动
+2026-10-08 13:26:22,933 INFO 加藤惠 已启动
+2026-10-08 13:26:53,433 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 13:27:36,744 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 13:27:56,938 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 13:27:56,968 INFO Decoder type: hifi-gan
+2026-10-08 13:27:56,972 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 13:28:39,345 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 13:29:02,618 INFO 加藤惠 已启动
+2026-10-08 13:31:26,965 INFO 加藤惠 已启动
+2026-10-08 13:34:18,950 INFO 加藤惠 已启动
+2026-10-08 13:43:28,330 INFO 加藤惠 已启动
+2026-10-08 13:46:13,223 INFO 加藤惠 已启动
+2026-10-08 13:48:57,022 INFO 加藤惠 已启动
+2026-10-08 13:50:31,142 INFO 加藤惠 已启动
+2026-10-08 13:51:49,742 INFO 加藤惠 已启动
+2026-10-08 13:57:02,208 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 13:57:45,951 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 13:58:06,209 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 13:58:06,252 INFO Decoder type: hifi-gan
+2026-10-08 13:58:06,256 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 14:02:19,594 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 14:02:39,784 INFO Decoder type: hifi-gan
+2026-10-08 15:48:58,712 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 15:49:18,986 INFO Decoder type: hifi-gan
+2026-10-08 15:53:53,970 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 15:54:14,291 INFO Decoder type: hifi-gan
+2026-10-08 16:18:45,879 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 16:19:06,169 INFO Decoder type: hifi-gan
+2026-10-08 16:19:06,992 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_676.pth' (epoch 36)
+2026-10-08 16:19:49,163 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 16:20:09,320 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 16:20:09,350 INFO Decoder type: hifi-gan
+2026-10-08 16:20:09,352 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 16:20:09,956 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_676.pth' (epoch 36)
+2026-10-08 16:20:11,320 INFO Chunk: Chunk(Speech: True, 308700.0)
+2026-10-08 16:20:11,579 INFO F0 inference time:       0.255s, RTF: 0.032
+2026-10-08 16:20:12,770 INFO HuBERT inference time  : 1.154s, RTF: 0.144
+2026-10-08 16:20:24,878 INFO 加藤惠 已启动
+2026-10-08 16:21:02,232 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 16:21:45,389 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 16:22:05,560 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 16:22:05,588 INFO Decoder type: hifi-gan
+2026-10-08 16:22:05,590 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 16:22:06,390 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_676.pth' (epoch 36)
+2026-10-08 16:22:48,464 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 16:22:48,481 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 16:23:08,643 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 16:23:08,721 INFO Decoder type: hifi-gan
+2026-10-08 16:23:08,727 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 16:23:08,737 INFO Decoder type: hifi-gan
+2026-10-08 16:23:09,634 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_676.pth' (epoch 36)
+2026-10-08 16:23:09,664 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_676.pth' (epoch 36)
+2026-10-08 16:23:10,156 INFO Chunk: Chunk(Speech: True, 362208.0)
+2026-10-08 16:23:10,158 INFO Chunk: Chunk(Speech: True, 367853.0)
+2026-10-08 16:23:10,369 INFO F0 inference time:       0.214s, RTF: 0.023
+2026-10-08 16:23:10,369 INFO F0 inference time:       0.212s, RTF: 0.023
+2026-10-08 16:23:11,007 INFO HuBERT inference time  : 0.626s, RTF: 0.067
+2026-10-08 16:23:11,018 INFO HuBERT inference time  : 0.637s, RTF: 0.069
+2026-10-08 16:23:11,248 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 16:23:14,190 INFO Inference time: 3.17s, RTF: 0.34
+2026-10-08 16:23:14,253 INFO Inference time: 3.24s, RTF: 0.35
+2026-10-08 16:23:31,389 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 16:23:31,413 INFO Decoder type: hifi-gan
+2026-10-08 16:23:31,415 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 16:23:31,946 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_676.pth' (epoch 36)
+2026-10-08 16:23:31,973 INFO Chunk: Chunk(Speech: True, 132300.0)
+2026-10-08 16:23:32,063 INFO F0 inference time:       0.091s, RTF: 0.023
+2026-10-08 16:23:32,316 INFO HuBERT inference time  : 0.250s, RTF: 0.062
+2026-10-08 16:23:33,563 INFO Inference time: 1.25s, RTF: 0.31
+2026-10-08 16:23:33,563 INFO Chunk: Chunk(Speech: False, 17640.0)
+2026-10-08 16:23:33,563 INFO Chunk: Chunk(Speech: True, 35280.0)
+2026-10-08 16:23:33,602 INFO F0 inference time:       0.038s, RTF: 0.021
+2026-10-08 16:23:33,673 INFO HuBERT inference time  : 0.068s, RTF: 0.038
+2026-10-08 16:23:34,136 INFO Inference time: 0.46s, RTF: 0.26
+2026-10-08 16:23:34,137 INFO Chunk: Chunk(Speech: False, 17640.0)
+2026-10-08 16:23:34,137 INFO Chunk: Chunk(Speech: True, 61740.0)
+2026-10-08 16:23:34,180 INFO F0 inference time:       0.042s, RTF: 0.018
+2026-10-08 16:23:34,279 INFO HuBERT inference time  : 0.096s, RTF: 0.040
+2026-10-08 16:23:34,891 INFO Inference time: 0.61s, RTF: 0.26
+2026-10-08 16:23:34,891 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 16:23:34,891 INFO Chunk: Chunk(Speech: True, 109486.0)
+2026-10-08 16:23:34,969 INFO F0 inference time:       0.076s, RTF: 0.022
+2026-10-08 16:23:35,100 INFO HuBERT inference time  : 0.127s, RTF: 0.037
+2026-10-08 16:23:36,020 INFO Inference time: 0.92s, RTF: 0.26
+2026-10-08 16:26:28,465 INFO 加藤惠 已启动
+2026-10-08 16:28:51,648 INFO 加藤惠 已启动
+2026-10-08 16:29:31,218 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 16:30:14,287 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 16:30:34,470 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 16:30:34,492 INFO Decoder type: hifi-gan
+2026-10-08 16:30:34,494 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 16:30:35,203 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_676.pth' (epoch 36)
+2026-10-08 16:31:17,286 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 16:31:26,005 INFO 加藤惠 已启动
+2026-10-08 16:31:32,426 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 16:32:15,436 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 16:32:35,597 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 16:32:35,620 INFO Decoder type: hifi-gan
+2026-10-08 16:32:35,622 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 16:32:36,286 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_676.pth' (epoch 36)
+2026-10-08 16:32:36,306 INFO voice converting: D:\Lao_Po\data\tts_cache\9b6e18a99f2516e68a57bccd51ff1a34.wav
+2026-10-08 16:33:18,370 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 16:33:38,579 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 16:33:38,606 INFO Decoder type: hifi-gan
+2026-10-08 16:33:38,608 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 16:33:39,191 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_676.pth' (epoch 36)
+2026-10-08 16:33:39,589 INFO Chunk: Chunk(Speech: True, 141120.0)
+2026-10-08 16:33:39,686 INFO F0 inference time:       0.096s, RTF: 0.023
+2026-10-08 16:33:39,966 INFO HuBERT inference time  : 0.273s, RTF: 0.065
+2026-10-08 16:33:41,069 INFO Inference time: 1.10s, RTF: 0.26
+2026-10-08 16:33:41,069 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 16:33:41,069 INFO Chunk: Chunk(Speech: True, 158760.0)
+2026-10-08 16:33:41,154 INFO F0 inference time:       0.085s, RTF: 0.018
+2026-10-08 16:33:41,321 INFO HuBERT inference time  : 0.166s, RTF: 0.036
+2026-10-08 16:33:42,514 INFO Inference time: 1.19s, RTF: 0.26
+2026-10-08 16:33:42,516 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 16:33:42,516 INFO Chunk: Chunk(Speech: True, 132300.0)
+2026-10-08 16:33:42,606 INFO F0 inference time:       0.090s, RTF: 0.023
+2026-10-08 16:33:42,748 INFO HuBERT inference time  : 0.139s, RTF: 0.035
+2026-10-08 16:33:43,780 INFO Inference time: 1.03s, RTF: 0.26
+2026-10-08 16:33:43,780 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 16:33:43,782 INFO Chunk: Chunk(Speech: True, 35280.0)
+2026-10-08 16:33:43,822 INFO F0 inference time:       0.041s, RTF: 0.023
+2026-10-08 16:33:43,896 INFO HuBERT inference time  : 0.070s, RTF: 0.039
+2026-10-08 16:33:44,352 INFO Inference time: 0.46s, RTF: 0.25
+2026-10-08 16:33:44,354 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 16:33:44,354 INFO Chunk: Chunk(Speech: True, 98432.0)
+2026-10-08 16:33:44,441 INFO F0 inference time:       0.088s, RTF: 0.027
+2026-10-08 16:33:44,568 INFO HuBERT inference time  : 0.121s, RTF: 0.037
+2026-10-08 16:33:45,340 INFO Inference time: 0.77s, RTF: 0.24
+2026-10-08 16:33:45,362 INFO voice converted: D:\Lao_Po\data\voice_out\f5181479c839b9943f30c9292a604fae.wav
+2026-10-08 16:33:45,364 INFO voice ok: 嗯……Amon君已经很努力了，我都看在眼 -> D:\Lao_Po\data\voice_out\f5181479c839b9943f30c9292a604fae.wav
+2026-10-08 17:34:30,524 INFO 加藤惠 已启动
+2026-10-08 17:34:39,960 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 17:35:23,276 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 17:35:43,499 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 17:35:43,527 INFO Decoder type: hifi-gan
+2026-10-08 17:35:43,530 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 18:09:37,529 INFO 加藤惠 已启动
+2026-10-08 18:09:47,851 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 18:10:31,035 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:10:51,229 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 18:10:51,259 INFO Decoder type: hifi-gan
+2026-10-08 18:10:51,262 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 18:11:33,587 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:11:54,012 INFO Decoder type: hifi-gan
+2026-10-08 18:11:54,922 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_912.pth' (epoch 48)
+2026-10-08 18:11:54,950 INFO voice converting: D:\Lao_Po\data\tts_cache\e2e05be336b9519060650f21a7babf6c.wav
+2026-10-08 18:12:37,020 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:12:57,281 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 18:12:57,310 INFO Decoder type: hifi-gan
+2026-10-08 18:12:57,312 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 18:12:58,022 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_912.pth' (epoch 48)
+2026-10-08 18:12:58,720 INFO Chunk: Chunk(Speech: True, 35280.0)
+2026-10-08 18:12:58,776 INFO F0 inference time:       0.055s, RTF: 0.031
+2026-10-08 18:12:58,956 INFO HuBERT inference time  : 0.175s, RTF: 0.097
+2026-10-08 18:12:59,588 INFO Inference time: 0.63s, RTF: 0.35
+2026-10-08 18:12:59,588 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 18:12:59,588 INFO Chunk: Chunk(Speech: True, 79380.0)
+2026-10-08 18:12:59,635 INFO F0 inference time:       0.046s, RTF: 0.017
+2026-10-08 18:12:59,779 INFO HuBERT inference time  : 0.141s, RTF: 0.050
+2026-10-08 18:13:00,696 INFO Inference time: 0.92s, RTF: 0.33
+2026-10-08 18:13:00,697 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 18:13:00,697 INFO Chunk: Chunk(Speech: True, 132300.0)
+2026-10-08 18:13:00,788 INFO F0 inference time:       0.091s, RTF: 0.023
+2026-10-08 18:13:00,969 INFO HuBERT inference time  : 0.178s, RTF: 0.045
+2026-10-08 18:13:02,297 INFO Inference time: 1.33s, RTF: 0.33
+2026-10-08 18:13:02,297 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 18:13:02,298 INFO Chunk: Chunk(Speech: True, 105840.0)
+2026-10-08 18:13:02,385 INFO F0 inference time:       0.087s, RTF: 0.026
+2026-10-08 18:13:02,548 INFO HuBERT inference time  : 0.158s, RTF: 0.047
+2026-10-08 18:13:03,663 INFO Inference time: 1.11s, RTF: 0.33
+2026-10-08 18:13:03,664 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 18:13:03,664 INFO Chunk: Chunk(Speech: True, 38573.0)
+2026-10-08 18:13:03,708 INFO F0 inference time:       0.043s, RTF: 0.023
+2026-10-08 18:13:03,808 INFO HuBERT inference time  : 0.096s, RTF: 0.051
+2026-10-08 18:13:04,420 INFO Inference time: 0.61s, RTF: 0.33
+2026-10-08 18:13:04,442 INFO voice converted: D:\Lao_Po\data\voice_out\a88f6101acba0b13a7d54fc8fe086df0.wav
+2026-10-08 18:14:05,939 INFO 加藤惠 已启动
+2026-10-08 18:14:13,991 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 18:14:57,140 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:15:17,384 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 18:15:17,412 INFO Decoder type: hifi-gan
+2026-10-08 18:15:17,414 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 18:16:29,326 WARNING Could not reach the Hub ([WinError 10054] 远程主机强迫关闭了一个现有的连接。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:16:29,703 INFO Decoder type: hifi-gan
+2026-10-08 18:18:56,242 WARNING Could not reach the Hub ([WinError 10054] 远程主机强迫关闭了一个现有的连接。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:19:16,518 INFO Decoder type: hifi-gan
+2026-10-08 18:21:12,061 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:21:32,277 INFO Decoder type: hifi-gan
+2026-10-08 18:21:32,832 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_936.pth' (epoch 50)
+2026-10-08 18:21:32,853 INFO voice converting: D:\Lao_Po\data\tts_cache\461ccf439f00e9e537484b09c659b80d.wav
+2026-10-08 18:22:14,909 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:22:36,093 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 18:22:36,117 INFO Decoder type: hifi-gan
+2026-10-08 18:22:36,119 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 18:22:36,675 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_936.pth' (epoch 50)
+2026-10-08 18:22:37,130 INFO Chunk: Chunk(Speech: True, 35280.0)
+2026-10-08 18:22:37,178 INFO F0 inference time:       0.048s, RTF: 0.027
+2026-10-08 18:22:37,381 INFO HuBERT inference time  : 0.157s, RTF: 0.087
+2026-10-08 18:22:37,851 INFO Inference time: 0.47s, RTF: 0.26
+2026-10-08 18:22:37,851 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 18:22:37,851 INFO Chunk: Chunk(Speech: True, 337395.0)
+2026-10-08 18:22:38,030 INFO F0 inference time:       0.178s, RTF: 0.021
+2026-10-08 18:22:38,315 INFO HuBERT inference time  : 0.277s, RTF: 0.032
+2026-10-08 18:22:40,409 INFO Inference time: 2.09s, RTF: 0.24
+2026-10-08 18:22:40,428 INFO voice converted: D:\Lao_Po\data\voice_out\33275ef4439b82240c5d216e8b1e82be.wav
+2026-10-08 18:25:59,226 INFO 加藤惠 已启动
+2026-10-08 18:26:05,609 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 18:26:48,629 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:27:08,781 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 18:27:08,961 INFO Decoder type: hifi-gan
+2026-10-08 18:27:08,962 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 18:27:09,521 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_936.pth' (epoch 50)
+2026-10-08 18:27:09,540 INFO voice converting: D:\Lao_Po\data\tts_cache\131d1ecc4be42e038e42b1cc68a46c83.mp3
+2026-10-08 18:27:51,756 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:28:11,897 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 18:28:11,918 INFO Decoder type: hifi-gan
+2026-10-08 18:28:11,920 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 18:28:12,467 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_936.pth' (epoch 50)
+2026-10-08 18:28:12,885 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 18:28:12,885 INFO Chunk: Chunk(Speech: True, 35280.0)
+2026-10-08 18:28:12,936 INFO F0 inference time:       0.051s, RTF: 0.028
+2026-10-08 18:28:13,095 INFO HuBERT inference time  : 0.152s, RTF: 0.084
+2026-10-08 18:28:13,553 INFO Inference time: 0.46s, RTF: 0.25
+2026-10-08 18:28:13,554 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 18:28:13,554 INFO Chunk: Chunk(Speech: True, 97020.0)
+2026-10-08 18:28:13,628 INFO F0 inference time:       0.074s, RTF: 0.023
+2026-10-08 18:28:13,746 INFO HuBERT inference time  : 0.115s, RTF: 0.036
+2026-10-08 18:28:14,534 INFO Inference time: 0.79s, RTF: 0.25
+2026-10-08 18:28:14,534 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 18:28:14,535 INFO Chunk: Chunk(Speech: True, 141120.0)
+2026-10-08 18:28:14,629 INFO F0 inference time:       0.093s, RTF: 0.022
+2026-10-08 18:28:14,774 INFO HuBERT inference time  : 0.142s, RTF: 0.034
+2026-10-08 18:28:15,828 INFO Inference time: 1.05s, RTF: 0.25
+2026-10-08 18:28:15,828 INFO Chunk: Chunk(Speech: False, 22580.0)
+2026-10-08 18:28:15,849 INFO voice converted: D:\Lao_Po\data\voice_out\819f5f203733befd114f3b8a52fa7e6d.wav
+2026-10-08 18:29:19,831 INFO 加藤惠 已启动
+2026-10-08 18:29:26,268 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 18:30:09,418 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:30:29,644 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 18:30:29,667 INFO Decoder type: hifi-gan
+2026-10-08 18:30:29,669 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 18:30:30,361 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_936.pth' (epoch 50)
+2026-10-08 18:30:30,379 INFO voice converting: D:\Lao_Po\data\tts_cache\44096048f9add4ca4602b7a843d1295e.mp3
+2026-10-08 18:31:12,439 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:31:32,564 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 18:31:32,584 INFO Decoder type: hifi-gan
+2026-10-08 18:31:32,586 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 18:31:33,121 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_936.pth' (epoch 50)
+2026-10-08 18:31:33,519 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 18:31:33,519 INFO Chunk: Chunk(Speech: True, 52920.0)
+2026-10-08 18:31:33,569 INFO F0 inference time:       0.050s, RTF: 0.023
+2026-10-08 18:31:33,799 INFO HuBERT inference time  : 0.225s, RTF: 0.102
+2026-10-08 18:31:34,346 INFO Inference time: 0.55s, RTF: 0.25
+2026-10-08 18:31:34,347 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 18:31:34,347 INFO Chunk: Chunk(Speech: True, 123480.0)
+2026-10-08 18:31:34,438 INFO F0 inference time:       0.090s, RTF: 0.024
+2026-10-08 18:31:34,560 INFO HuBERT inference time  : 0.118s, RTF: 0.031
+2026-10-08 18:31:35,520 INFO Inference time: 0.96s, RTF: 0.25
+2026-10-08 18:31:35,521 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 18:31:35,521 INFO Chunk: Chunk(Speech: True, 176400.0)
+2026-10-08 18:31:35,616 INFO F0 inference time:       0.095s, RTF: 0.019
+2026-10-08 18:31:35,776 INFO HuBERT inference time  : 0.157s, RTF: 0.031
+2026-10-08 18:31:36,997 INFO Inference time: 1.22s, RTF: 0.24
+2026-10-08 18:31:36,998 INFO Chunk: Chunk(Speech: False, 26813.0)
+2026-10-08 18:31:37,012 INFO voice converted: D:\Lao_Po\data\voice_out\c192dce8f28ae239d35102c4dc58cce7.wav
+2026-10-08 18:34:10,224 INFO 加藤惠 已启动
+2026-10-08 18:34:18,640 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 18:35:02,919 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 18:35:24,231 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 18:35:24,277 INFO Decoder type: hifi-gan
+2026-10-08 18:35:24,281 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 18:35:25,404 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_936.pth' (epoch 50)
+2026-10-08 21:43:07,650 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 21:43:27,825 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 21:43:27,852 INFO Decoder type: hifi-gan
+2026-10-08 21:43:27,855 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 21:43:28,529 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_1316.pth' (epoch 70)
+2026-10-08 21:43:28,551 INFO voice converting: D:\Lao_Po\data\tts_cache\bc67487ddf76acf2027554753bba00fd.mp3
+2026-10-08 21:44:10,149 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 21:44:30,392 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 21:44:30,420 INFO Decoder type: hifi-gan
+2026-10-08 21:44:30,422 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 21:44:31,077 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_1316.pth' (epoch 70)
+2026-10-08 21:44:31,716 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 21:44:31,716 INFO Chunk: Chunk(Speech: True, 97020.0)
+2026-10-08 21:44:31,823 INFO F0 inference time:       0.107s, RTF: 0.033
+2026-10-08 21:44:32,490 INFO HuBERT inference time  : 0.661s, RTF: 0.206
+2026-10-08 21:44:33,608 INFO Inference time: 1.12s, RTF: 0.35
+2026-10-08 21:44:33,608 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 21:44:33,609 INFO Chunk: Chunk(Speech: True, 282240.0)
+2026-10-08 21:44:33,799 INFO F0 inference time:       0.189s, RTF: 0.026
+2026-10-08 21:44:34,141 INFO HuBERT inference time  : 0.338s, RTF: 0.046
+2026-10-08 21:44:36,403 INFO Inference time: 2.26s, RTF: 0.31
+2026-10-08 21:44:36,404 INFO Chunk: Chunk(Speech: False, 26813.0)
+2026-10-08 21:44:36,422 INFO voice converted: D:\Lao_Po\data\voice_out\098577e289237e5fbf899a6c3fbdbdac.wav
+2026-10-08 23:02:16,596 INFO 加藤惠 已启动
+2026-10-08 23:02:37,185 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 23:02:45,673 INFO 加藤惠 已启动
+2026-10-08 23:03:03,382 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 23:03:41,248 WARNING Could not reach the Hub ([WinError 10061] 由于目标计算机积极拒绝，无法连接。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 23:04:01,722 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 23:04:01,764 INFO Decoder type: hifi-gan
+2026-10-08 23:04:01,767 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 23:04:02,918 INFO Loaded checkpoint 'D:\Lao_Po\logs\44k\G_1520.pth' (epoch 80)
+2026-10-08 23:05:25,852 INFO 加藤惠 已启动
+2026-10-08 23:05:40,506 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 23:06:24,967 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 23:06:45,231 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 23:06:45,265 INFO Decoder type: hifi-gan
+2026-10-08 23:06:45,268 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 23:06:46,394 INFO Loaded checkpoint 'D:\Lao_Po\logs\44k\G_1520.pth' (epoch 80)
+2026-10-08 23:07:21,999 INFO voice converting: D:\Lao_Po\data\tts_cache\6a7c4371f1969a17bb2179fa25e38658.mp3
+2026-10-08 23:08:04,143 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 23:08:24,454 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 23:08:24,485 INFO Decoder type: hifi-gan
+2026-10-08 23:08:24,487 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 23:08:25,495 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/G_1520.pth' (epoch 80)
+2026-10-08 23:08:26,405 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 23:08:26,405 INFO Chunk: Chunk(Speech: True, 52920.0)
+2026-10-08 23:08:26,508 INFO F0 inference time:       0.106s, RTF: 0.048
+2026-10-08 23:08:26,978 INFO HuBERT inference time  : 0.448s, RTF: 0.204
+2026-10-08 23:08:28,106 INFO Inference time: 1.13s, RTF: 0.51
+2026-10-08 23:08:28,106 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 23:08:28,106 INFO Chunk: Chunk(Speech: True, 141120.0)
+2026-10-08 23:08:28,242 INFO F0 inference time:       0.135s, RTF: 0.032
+2026-10-08 23:08:28,532 INFO HuBERT inference time  : 0.284s, RTF: 0.068
+2026-10-08 23:08:30,504 INFO Inference time: 1.97s, RTF: 0.47
+2026-10-08 23:08:30,506 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 23:08:30,506 INFO Chunk: Chunk(Speech: True, 185220.0)
+2026-10-08 23:08:30,646 INFO F0 inference time:       0.141s, RTF: 0.027
+2026-10-08 23:08:30,999 INFO HuBERT inference time  : 0.349s, RTF: 0.067
+2026-10-08 23:08:33,393 INFO Inference time: 2.39s, RTF: 0.46
+2026-10-08 23:08:33,395 INFO Chunk: Chunk(Speech: False, 23638.0)
+2026-10-08 23:08:33,436 INFO voice converted: D:\Lao_Po\data\voice_out\ff2c7db79cd20343f4b0a35ab25793c9.wav
+2026-10-08 23:23:12,428 INFO 加藤惠 已启动
+2026-10-08 23:23:23,506 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+2026-10-08 23:24:13,114 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 23:24:33,421 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 23:24:33,459 INFO Decoder type: hifi-gan
+2026-10-08 23:24:33,462 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 23:24:34,561 INFO Loaded checkpoint 'D:\Lao_Po\logs\44k\backup_round1\G_1508.pth' (epoch 80)
+2026-10-08 23:25:59,876 INFO voice converting: D:\Lao_Po\data\tts_cache\b597e1fc07dd8368ee556e403c4fa902.mp3
+2026-10-08 23:26:41,962 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 23:27:02,276 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 23:27:02,308 INFO Decoder type: hifi-gan
+2026-10-08 23:27:02,312 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 23:27:03,279 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/backup_round1/G_1508.pth' (epoch 80)
+2026-10-08 23:27:04,087 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 23:27:04,087 INFO Chunk: Chunk(Speech: True, 70560.0)
+2026-10-08 23:27:04,201 INFO F0 inference time:       0.107s, RTF: 0.041
+2026-10-08 23:27:04,666 INFO HuBERT inference time  : 0.447s, RTF: 0.172
+2026-10-08 23:27:05,981 INFO Inference time: 1.31s, RTF: 0.51
+2026-10-08 23:27:05,983 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 23:27:05,983 INFO Chunk: Chunk(Speech: True, 141120.0)
+2026-10-08 23:27:06,146 INFO F0 inference time:       0.163s, RTF: 0.039
+2026-10-08 23:27:06,446 INFO HuBERT inference time  : 0.296s, RTF: 0.070
+2026-10-08 23:27:08,439 INFO Inference time: 1.99s, RTF: 0.48
+2026-10-08 23:27:08,441 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 23:27:08,441 INFO Chunk: Chunk(Speech: True, 185220.0)
+2026-10-08 23:27:08,581 INFO F0 inference time:       0.139s, RTF: 0.027
+2026-10-08 23:27:08,927 INFO HuBERT inference time  : 0.343s, RTF: 0.066
+2026-10-08 23:27:11,382 INFO Inference time: 2.45s, RTF: 0.47
+2026-10-08 23:27:11,384 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 23:27:11,384 INFO Chunk: Chunk(Speech: True, 52920.0)
+2026-10-08 23:27:11,455 INFO F0 inference time:       0.070s, RTF: 0.032
+2026-10-08 23:27:11,668 INFO HuBERT inference time  : 0.209s, RTF: 0.095
+2026-10-08 23:27:12,796 INFO Inference time: 1.13s, RTF: 0.51
+2026-10-08 23:27:12,798 INFO Chunk: Chunk(Speech: False, 22932.0)
+2026-10-08 23:27:12,817 INFO voice converted: D:\Lao_Po\data\voice_out\d937e1bb894851cf9a8c7a42aee94dbc.wav
+2026-10-08 23:31:23,141 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 23:31:43,380 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 23:31:43,423 INFO Decoder type: hifi-gan
+2026-10-08 23:31:43,427 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 23:31:44,379 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/backup_round1/G_1520.pth' (epoch 80)
+2026-10-08 23:31:44,419 INFO voice converting: D:\Lao_Po\data\tts_cache\3fc09be2ed68031e8b10354f8bf19889.mp3
+2026-10-08 23:32:26,509 WARNING Could not reach the Hub ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。). Using cached commit hash for 'lengyue233/content-vec-best'.
+2026-10-08 23:32:47,840 WARNING D:\Lao_Po\venv\Lib\site-packages\so_vits_svc_fork\modules\synthesizers.py:82: UserWarning: Unused arguments: {'n_layers_q': 3, 'use_spectral_norm': False, 'pretrained': {'D_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth', 'G_0.pth': 'https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth'}}
+  warnings.warn(f"Unused arguments: {kwargs}")
+
+2026-10-08 23:32:47,878 INFO Decoder type: hifi-gan
+2026-10-08 23:32:47,880 WARNING D:\Lao_Po\venv\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+2026-10-08 23:32:48,676 INFO Loaded checkpoint 'D:/Lao_Po/logs/44k/backup_round1/G_1520.pth' (epoch 80)
+2026-10-08 23:32:48,749 INFO Chunk: Chunk(Speech: False, 8820.0)
+2026-10-08 23:32:48,749 INFO Chunk: Chunk(Speech: True, 123480.0)
+2026-10-08 23:32:48,891 INFO F0 inference time:       0.142s, RTF: 0.037
+2026-10-08 23:32:49,330 INFO HuBERT inference time  : 0.435s, RTF: 0.114
+2026-10-08 23:32:51,211 INFO Inference time: 1.88s, RTF: 0.50
+2026-10-08 23:32:51,211 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 23:32:51,213 INFO Chunk: Chunk(Speech: True, 158760.0)
+2026-10-08 23:32:51,359 INFO F0 inference time:       0.145s, RTF: 0.032
+2026-10-08 23:32:51,663 INFO HuBERT inference time  : 0.301s, RTF: 0.065
+2026-10-08 23:32:53,747 INFO Inference time: 2.08s, RTF: 0.45
+2026-10-08 23:32:53,747 INFO Chunk: Chunk(Speech: False, 26460.0)
+2026-10-08 23:32:53,747 INFO Chunk: Chunk(Speech: True, 35280.0)
+2026-10-08 23:32:53,832 INFO F0 inference time:       0.084s, RTF: 0.046
+2026-10-08 23:32:53,978 INFO HuBERT inference time  : 0.138s, RTF: 0.077
+2026-10-08 23:32:54,873 INFO Inference time: 0.89s, RTF: 0.50
+2026-10-08 23:32:54,873 INFO Chunk: Chunk(Speech: False, 21874.0)
+2026-10-08 23:32:54,919 INFO voice converted: D:\Lao_Po\data\voice_out\2055c02d0632c3ea396cb6bec27bd5d8.wav
+2026-10-09 00:42:35,847 INFO 加藤惠 已启动
+2026-10-09 08:29:28,312 INFO 加藤惠 已启动
+2026-10-09 11:42:38,761 INFO 加藤惠 已启动
+2026-10-09 18:41:50,881 INFO 加藤惠 已启动
+2026-10-10 06:55:50,658 INFO 加藤惠 已启动
+2026-10-10 07:40:23,793 INFO 加藤惠 已启动
+2026-10-10 09:41:54,785 INFO 加藤惠 已启动
+2026-10-10 09:42:38,570 INFO 加藤惠 已启动
+2026-10-10 09:44:29,087 INFO 加藤惠 已启动
+2026-10-10 09:53:31,076 INFO 加藤惠 已启动
+2026-10-10 09:58:39,992 INFO 加藤惠 已启动
+2026-10-10 10:04:19,585 INFO 加藤惠 已启动
+2026-10-10 10:07:44,677 INFO 加藤惠 已启动
+2026-10-10 10:10:25,275 INFO 加藤惠 已启动
+2026-10-10 10:14:32,441 INFO 加藤惠 已启动
+2026-10-10 10:19:25,590 INFO 加藤惠 已启动
+2026-10-10 10:23:26,965 INFO 加藤惠 已启动
+2026-10-10 10:38:09,043 INFO 加藤惠 已启动
+2026-10-10 10:41:40,829 INFO 加藤惠 已启动
+2026-10-10 10:45:03,289 INFO 加藤惠 已启动
+2026-10-10 10:47:01,614 INFO 加藤惠 已启动
+2026-10-10 10:50:30,061 INFO 加藤惠 已启动
+2026-10-10 10:55:43,983 INFO 加藤惠 已启动
+2026-10-10 11:10:42,436 INFO 加藤惠 已启动
+2026-10-10 11:15:17,164 INFO 加藤惠 已启动
+2026-10-10 11:18:35,146 INFO 加藤惠 已启动
+2026-10-10 11:47:57,128 INFO 加藤惠 已启动

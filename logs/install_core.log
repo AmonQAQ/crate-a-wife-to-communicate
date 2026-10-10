@@ -1,0 +1,88 @@
+﻿=== start 10/07/2026 21:44:53 ===
+Requirement already satisfied: pip in d:\lao_po\venv\lib\site-packages (24.0)
+Collecting pip
+  Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
+   ---------------------------------------- 1.8/1.8 MB 3.6 MB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.0
+    Uninstalling pip-24.0:
+      Successfully uninstalled pip-24.0
+Successfully installed pip-26.2.1
+--- upgrade done ---
+Collecting PySide6>=6.6 (from -r D:\Lao_Po\requirements.txt (line 1))
+  Downloading pyside6-6.11.2-cp310-abi3-win_amd64.whl.metadata (5.4 kB)
+Collecting requests>=2.31 (from -r D:\Lao_Po\requirements.txt (line 2))
+  Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting edge-tts>=6.1 (from -r D:\Lao_Po\requirements.txt (line 3))
+  Using cached edge_tts-7.2.8-py3-none-any.whl.metadata (5.5 kB)
+Collecting pyopenjtalk>=0.3.1 (from -r D:\Lao_Po\requirements.txt (line 4))
+  Downloading pyopenjtalk-0.4.1.tar.gz (1.4 MB)
+     ---------------------------------------- 1.4/1.4 MB 7.3 MB/s  0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: still running...
+  Installing build dependencies: still running...
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+python.exe :   error: subprocess-exited-with-error
+At line:1 char:421
++ ... oding utf8; & $venv -m pip install -r "D:\Lao_Po\requirements.txt" 2> ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  error: subprocess-exited-with-error:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  
+  Getting requirements to build wheel did not run successfully.
+  exit code: 1
+  
+  [38 lines of output]
+  -- Building for: NMake Makefiles
+  CMake Error at CMakeLists.txt:17 (project):
+    Running
+  
+     'nmake' '-?'
+  
+    failed with:
+  
+     no such file or directory
+  
+  
+  CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+  CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
+  -- Configuring incomplete, errors occurred!
+  CMake is in the system path. Version:               cmake version 4.4.4
+  
+  CMake suite maintained and supported by Kitware (kitware.com/cmake).
+  Traceback (most recent call last):
+    File "D:\Lao_Po\venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 389, in <modul
+e>
+      main()
+    File "D:\Lao_Po\venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 373, in main
+      json_out["return_val"] = hook(**hook_input["kwargs"])
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "D:\Lao_Po\venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 143, in get_re
+quires_for_build_wheel
+      return hook(config_settings)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\Lenovo\AppData\Local\Temp\pip-build-env-zhox1qjr\overlay\Lib\site-packages\setuptools\build_meta.py"
+, line 333, in get_requires_for_build_wheel
+      return self._get_build_requires(config_settings, requirements=[])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\Lenovo\AppData\Local\Temp\pip-build-env-zhox1qjr\overlay\Lib\site-packages\setuptools\build_meta.py"
+, line 301, in _get_build_requires
+      self.run_setup()
+    File "C:\Users\Lenovo\AppData\Local\Temp\pip-build-env-zhox1qjr\overlay\Lib\site-packages\setuptools\build_meta.py"
+, line 317, in run_setup
+      exec(code, locals())  # noqa: S102 # exec is intentional here
+      ^^^^^^^^^^^^^^^^^^^^
+    File "<string>", line 105, in <module>
+    File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 502, in check_returncode
+      raise CalledProcessError(self.returncode, self.args, self.stdout,
+  subprocess.CalledProcessError: Command '['cmake', '..']' returned non-zero exit status 1.
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'pyopenjtalk' when getting requirements to build wheel
+=== core done 10/07/2026 21:50:32 exit 1 ===
